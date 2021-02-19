@@ -1,0 +1,36 @@
+body{
+    width:900px;
+    border: 2px solid black;
+    margin: 0% auto;
+    
+} 
+.grid_1{
+    display: grid;
+    grid-template-columns: 2;
+    
+}
+.workout_box{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.single_exercise_input{
+    display: grid;
+    grid-template-columns: 70% auto max-content;
+    column-gap: 10px;
+    margin: 10px;
+}
+
+#exercise_list{
+    padding: 10px;
+    background-color:lightblue;
+    
+}
+
+.single_exercise_input input{
+    padding: 5px;
+    border-radius: 5px;
+}
+

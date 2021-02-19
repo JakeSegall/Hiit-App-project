@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+.heading{
+    font-size: 30px;
+    background-color: rgba(56, 24, 14, 0.39);
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+    padding: 5px;
+}
+
+.workout_images{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0px auto;
+    width: 90%;
+    grid-row-gap: 15px;
+    margin-top: 10px;
+}
+
+.workout_images img{
+   
+}
+
+body{
+    background-image: url("../img/Background.jpeg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+.first_image{
+    width: 100%;
+}
+
+.workout_tabloid{
+    border: 3px solid rgb(100, 100, 100);
+}
+
+.workout_title{
+    background-color: orange;
+    color: white;
+    font-size: 22.5px;
+}

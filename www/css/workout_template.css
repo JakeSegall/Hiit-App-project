@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Yusei Magic';
+    src: url('../fonts/YuseiMagic-Regular.woff2') format('woff2'),
+        url('../fonts/YuseiMagic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.title{
+    position: absolute;
+    top: 20px;
+    padding: 0px 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    font-family: 'Yusei Magic';
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.description{
+    font-size: 20px;
+    padding: 10px;
+    background-color: lightgreen;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.workout_image{
+    width: 100%;
+
+
+}
+
+
+.exercises{
+    padding: 10px;
+
+}
+
+.exercise_name{
+    
+}
+
+.exercise_duration{
+
+
+}
+
+.single_exercise{
+    display: grid;
+    grid-template-columns: auto 50%;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+
+}
+
+
+.comment_icon img{
+    height:  45px; 
+    margin-top: 10px;
+}
+
+
+.comment_icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 200;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    transition: opacity 0.2s ease; 
+}
+
+.comment_section{
+    position: fixed;
+    height: 100vh;
+    width: 90vw; 
+    top: 0px;
+    left: 120%;
+    background-color: white;
+    box-shadow: 0px 0px 10px darkgray;
+    z-index: 210;
+    transition: left 0.5s ease-out;
+}
+
+
+.text_comment{
+    display: grid;
+    padding: 10px;
+    row-gap: 10px;
+}
+
+.text_comment textarea{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text_comment input[type=button]{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.comment_section{
+    display: grid;
+    grid-template-rows: auto max-content;
+}
+
+.text_comment input[type=text]{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.comment_buttons{
+    display: grid;
+    grid-template-columns: auto 50%;
+    column-gap: 10px;
+}
+
+.single_comment{
+    background-color: rgb(240, 170, 170);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#comment_viewer{
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.comment_header{
+    display: grid;
+    grid-template-columns: auto max-content;
+    background-color: rgb(243, 208, 208);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.single_comment > div:nth-child(2){
+    padding: 5px;
+}
+
+.comment_header > div:nth-child(2){
+    color:  rgb(240, 170, 170);
+}
